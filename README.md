@@ -1,5 +1,8 @@
-<img width="518" height="518" alt="YouCut_20260419_204520226" src="https://github.com/user-attachments/assets/6135f21a-0651-4690-b0d2-2759f1586263" />
 # Newtonian-Superfluid-Simulation
+
+<img width="518" height="518" alt="YouCut_20260419_204520226" src="https://github.com/user-attachments/assets/6135f21a-0651-4690-b0d2-2759f1586263" />
+
+
 Physics simulation of a self-gravitating discrete medium with an elastic latticeconsciousnesssics simulation of a dense superfluid medium. It visualizes how gravitational collapse is prevented by an elastic lattice-like repulsion between particles.
 
 ### Key Concepts:
