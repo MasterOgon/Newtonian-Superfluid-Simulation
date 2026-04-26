@@ -2,7 +2,7 @@
 
 ## Demo
 
-<video src="https://github.com/MasterOgon/Newtonian-Superfluid-Simulation/raw/main/demo-simulation.mp4" width="100%" controls autoplay loop muted></video>
+
 
 
 
