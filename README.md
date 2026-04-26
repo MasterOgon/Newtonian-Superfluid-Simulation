@@ -9,26 +9,43 @@
 <img width="518" height="518" alt="YouCut_20260419_204520226" src="https://github.com/user-attachments/assets/6135f21a-0651-4690-b0d2-2759f1586263" />
 
 
-Physics simulation of a self-gravitating discrete medium with. simulation of a dense superfluid medium. It visualizes how gravitational collapse is prevented by an elastic lattice-like repulsion between particles.
+##Emergent Universe Simulator 
+This is a model of a fluid consisting of particles interacting through attraction, repulsion and spin. The change in the overall balance of forces leads to the formation of different dynamic patterns from micro to macro space. The concept is based on experimental research into fluid dynamics.  Codes are several options for setting up the mode.  
 
-### Attraction Concepts:
-* **Attraction:** Newtonian 1/r² force for gravitational connectivity.
-* **Repulsion:** Short-range 1/r² elastic force to maintain structural stability.
-* **Result:** A "breathing" medium that forms stable clusters instead of singularities.
+
+## Physics
+
+Particle-based simulation (N = 600) with the following local forces:
+
+### Radial Forces
+- **Attraction**: $F_{attr} = \frac{k_{attr}}{r^2 + s_{attr}}$
+- **Repulsion**: $F_{repel} = -\frac{k_{repel}}{r^4 + s_{repel}}$
+
+### Tangential Spin Force (with proportional damping)
+- Tangential direction: perpendicular to radial vector
+- $F_{spin} = \frac{k_{spin} \cdot spin_i \cdot m}{r^2 + s_{spin}}$
+- where damping multiplier $m = \min\left(\frac{r}{r_{damp}}, 1.0\right)$
+
+### Parameters
+- Attraction: $k_{attr}=100.0$, $s_{attr}=5.0$
+- Repulsion: $k_{repel}=55.0$, $s_{repel}=1.0$
+- Spin: $k_{spin}=70.0$, $s_{spin}=3.0$, $r_{damp}=15.0$
+- Global damping: $0.99$
+- Max interaction radius: $R_{max}=60.0$
+
+### Integration
+Velocity Verlet-like update with speed limit (25.0) and weak thermal noise.
+Particles bounce off box boundaries with energy loss.
 
 ### Scientific Background:
 This simulation is based on the experimental research regarding the fluid dynamics and quantum physics. 
-**Full paper:** [Hydrodynamic model of gravity as a secondary effect of electromagnetic dipoles and the hypothesis of superfluid space-time. (simulationenodo)](https://doi.org/10.5281/zenodo.15752936)
+**Full paper:** [Hydrodynamic model of gravity as a secondary effect of electromagnetic dipoles and the hypothesis of superfluid space-time. (Zenodo)](https://doi.org/10.5281/zenodo.15752936)
 
 ---
 
 ## How to Run
 1. Ensure you have `numpy` and `matplotlib` installed.
 2. Run `simulation.py` to see the animated output.
-
-3. ## Try it Online
-
-You can play with the interactive version directly in your browser (real-time parameters, RUN button, video export):
 
 ## Try it Online
 
