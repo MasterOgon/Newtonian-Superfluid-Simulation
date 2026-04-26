@@ -1,5 +1,11 @@
 # Newtonian-Superfluid-Simulation
 
+## Demo
+
+<video src="https://github.com/MasterOgon/Newtonian-Superfluid-Simulation/raw/main/demo-simulation.mp4" width="100%" controls autoplay loop muted></video>
+
+
+
 <img width="518" height="518" alt="YouCut_20260419_204520226" src="https://github.com/user-attachments/assets/6135f21a-0651-4690-b0d2-2759f1586263" />
 
 
