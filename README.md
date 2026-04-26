@@ -19,23 +19,13 @@ Particle-based simulation (N = 600) with the following local forces:
 
 ### Radial Forces
 - **Attraction**: $F_{attr} = \frac{k_{attr}}{r^2 + s_{attr}}$
-- **Repulsion**: $F_{repel} = -\frac{k_{repel}}{r^4 + s_{repel}}$
+- **Repulsion**: $F_{repel} = -\frac{k_{repel}}{r^2 + s_{repel}}$
 
 ### Tangential Spin Force (with proportional damping)
 - Tangential direction: perpendicular to radial vector
 - $F_{spin} = \frac{k_{spin} \cdot spin_i \cdot m}{r^2 + s_{spin}}$
 - where damping multiplier $m = \min\left(\frac{r}{r_{damp}}, 1.0\right)$
 
-### Parameters
-- Attraction: $k_{attr}=100.0$, $s_{attr}=5.0$
-- Repulsion: $k_{repel}=55.0$, $s_{repel}=1.0$
-- Spin: $k_{spin}=70.0$, $s_{spin}=3.0$, $r_{damp}=15.0$
-- Global damping: $0.99$
-- Max interaction radius: $R_{max}=60.0$
-
-### Integration
-Velocity Verlet-like update with speed limit (25.0) and weak thermal noise.
-Particles bounce off box boundaries with energy loss.
 
 ### Scientific Background:
 This simulation is based on the experimental research regarding the fluid dynamics and quantum physics. 
