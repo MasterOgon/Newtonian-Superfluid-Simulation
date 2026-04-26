@@ -6,7 +6,9 @@
 
 
 
-<img width="518" height="518" alt="emergent universe simulation" src="https://raw.githubusercontent.com/src/Newtonian-Superfluid-Simulation/refs/heads/main/YouCut_20260426_134604731.gif" />
+
+  <img src="./YouCut_20260426_134604731.gif" alt="emergent universe simulation" width="700">
+</p>
 
 
 ##Emergent Universe Simulator 
