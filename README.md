@@ -6,7 +6,7 @@
 
 
 
-<img width="518" height="518" alt="YouCut_20260419_204520226" src="https://github.com/user-attachments/assets/6135f21a-0651-4690-b0d2-2759f1586263" />
+<img width="518" height="518" alt="YouCut_20260426_134604731.gif" src="https://github.com/user-attachments/assets/6135f21a-0651-4690-b0d2-2759f1586263" />
 
 
 ##Emergent Universe Simulator 
