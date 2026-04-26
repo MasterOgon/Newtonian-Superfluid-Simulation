@@ -11,7 +11,7 @@
 </p>
 
 
-##Emergent Universe Simulator 
+## Emergent Universe Simulator 
 This is a model of a fluid consisting of particles interacting through attraction, repulsion and spin. The change in the overall balance of forces leads to the formation of different dynamic patterns from micro to macro space. The concept is based on experimental research into fluid dynamics.  Codes are several options for setting up the mode.  
 
 
@@ -21,7 +21,7 @@ Particle-based simulation (N = 600) with the following local forces:
 
 ### Radial Forces
 - **Attraction**: $F_{attr} = \frac{k_{attr}}{r^2 + s_{attr}}$
-- **Repulsion**: $F_{repel} = -\frac{k_{repel}}{r^2 + s_{repel}}$
+- **Repulsion**: $F_{repel} = -\frac{k_{repel}}{r^2 + s_{repel}}$, $F_{repel} = -\frac{k_{repel}}{r^4 + s_{repel}}$
 
 ### Tangential Spin Force (with proportional damping)
 - Tangential direction: perpendicular to radial vector
