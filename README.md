@@ -7,7 +7,7 @@
 
 
 
-  <img src="./YouCut_20260426_134604731 (1).gif" alt="emergent universe simulation" width="700">
+  <img src="./YouCut_20260426_155638157.gif" alt="emergent universe simulation" width="700">
 </p>
 
 
