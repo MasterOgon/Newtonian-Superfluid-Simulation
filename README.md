@@ -12,7 +12,7 @@
 
 
 ## Emergent Universe Simulator 
-This is a model of a fluid consisting of particles interacting through attraction, repulsion and spin. The change in the overall balance of forces leads to the formation of different dynamic patterns from micro to macro space. The concept is based on experimental research into fluid dynamics.  Codes are several options for setting up the mode.  
+This is a model of a fluid consisting of particles interacting through attraction, repulsion and spin. The change in the overall balance of forces leads to the formation of different dynamic patterns from micro to macro space. The concept is based on experimental research into fluid dynamics.  Codes are several options for setting up the mode. Open for collaboration.   
 
 
 ## Physics
