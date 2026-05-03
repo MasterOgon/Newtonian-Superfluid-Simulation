@@ -45,6 +45,7 @@ You can try for free online open source version:
 
 **[🌌 Universum Space Simulator](https://www.masterogon.art/index.php/universum-space-simulator/)**
 
-
+**Keywords:**
+`simulation` `physics` `quantum` `cellular-automata` `complexity` `cosmology` `astrophysics` `artificial-life` `cosmos` `superfluid` `fluid-dynamics` `emergent-behavior`
 
 
